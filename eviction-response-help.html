@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Served With Eviction Papers in Alameda County? | Pro Per Paperwork Pros</title>
+  <meta name="description" content="Eviction court deadlines move fast. Pro Per Paperwork Pros helps self-represented tenants in Alameda County prepare answers, fee waivers, declarations, and other court documents before deadlines expire. Not a law firm.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://properpaperworkpros.com/eviction-response-help">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --navy:        #4f156a;
+      --navy-dark:   #241a3c;
+      --navy-light:  #6a2080;
+      --amber:       #e1b52b;
+      --amber-light: #f0c840;
+      --amber-pale:  #FDF7E0;
+      --red:         #B83232;
+      --red-bg:      #3D0F0F;
+      --cream:       #FAF8F4;
+      --warm-gray:   #EDE8F5;
+      --border:      #D0C4E8;
+      --text:        #1A0A30;
+      --text-mid:    #4A3A65;
+      --text-light:  #7A6A90;
+      --white:       #FFFFFF;
+      --green:       #2E7D52;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; font-size: 16px; }
+    body {
+      font-family: 'Nunito', sans-serif;
+      background: var(--cream);
+      color: var(--text);
+      line-height: 1.65;
+      padding-bottom: 80px;
+    }
+
+    h1, h2, h3 { font-family: 'Playfair Display', serif; font-weight: 700; line-height: 1.15; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); }
+    h2 { font-size: clamp(1.55rem, 3.5vw, 2.2rem); color: var(--navy); margin-bottom: 0.5rem; }
+    h3 { font-size: 1.15rem; font-family: 'Nunito', sans-serif; font-weight: 700; }
+    p  { font-size: 1rem; color: var(--text-mid); }
+    a  { color: var(--navy); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* ── BUTTONS ── */
+    .btn-primary {
+      display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+      background: var(--amber); color: var(--navy-dark);
+      font-family: 'Nunito', sans-serif; font-size: 1rem; font-weight: 700;
+      padding: 16px 32px; border-radius: 6px; border: none; cursor: pointer;
+      text-decoration: none; transition: background 0.18s, transform 0.12s;
+      letter-spacing: 0.01em; min-height: 52px;
+    }
+    .btn-primary:hover { background: var(--amber-light); transform: translateY(-1px); text-decoration: none; }
+    .btn-primary:active { transform: translateY(0); }
+
+    .btn-secondary {
+      display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+      background: transparent; color: rgba(255,255,255,0.75);
+      font-family: 'Nunito', sans-serif; font-size: 0.88rem; font-weight: 600;
+      padding: 12px 22px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.3);
+      cursor: pointer; text-decoration: none; transition: all 0.18s;
+      letter-spacing: 0.01em;
+    }
+    .btn-secondary:hover { color: var(--white); border-color: rgba(255,255,255,0.6); background: rgba(255,255,255,0.07); text-decoration: none; }
+
+    .btn-outline {
+      display: inline-flex; align-items: center; justify-content: center;
+      background: transparent; color: var(--white);
+      font-family: 'Nunito', sans-serif; font-size: 0.95rem; font-weight: 600;
+      padding: 13px 26px; border-radius: 6px; border: 2px solid rgba(255,255,255,0.5);
+      cursor: pointer; text-decoration: none; transition: border-color 0.18s, background 0.18s;
+    }
+    .btn-outline:hover { border-color: white; background: rgba(255,255,255,0.08); text-decoration: none; }
+
+    .btn-navy {
+      display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+      background: var(--navy); color: var(--white);
+      font-family: 'Nunito', sans-serif; font-size: 1rem; font-weight: 700;
+      padding: 14px 28px; border-radius: 6px; border: none; cursor: pointer;
+      text-decoration: none; transition: background 0.18s; min-height: 52px;
+    }
+    .btn-navy:hover { background: var(--navy-light); text-decoration: none; }
+
+    /* ── TOP BAR ── */
+    .top-bar {
+      background: linear-gradient(135deg, #241a3c 0%, #4f156a 100%);
+      padding: 10px 20px;
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 12px; flex-wrap: wrap;
+    }
+    .top-bar .brand {
+      color: var(--white); font-family: 'Playfair Display', serif;
+      font-size: 1.1rem; font-weight: 600; letter-spacing: 0.01em;
+      text-decoration: none; display: flex; align-items: center; gap: 10px;
+    }
+    .top-bar .brand:hover { text-decoration: none; color: var(--white); }
+    .top-bar .contact-strip { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
+    .top-bar a.phone {
+      color: rgba(255,255,255,0.85); font-size: 0.9rem; font-weight: 600;
+      display: flex; align-items: center; gap: 5px;
+    }
+    .top-bar a.phone:hover { color: var(--white); text-decoration: none; }
+    .top-bar .cta-small {
+      background: var(--amber); color: var(--navy-dark);
+      font-size: 0.82rem; font-weight: 700; padding: 7px 16px;
+      border-radius: 4px; text-decoration: none; white-space: nowrap;
+      transition: background 0.15s;
+    }
+    .top-bar .cta-small:hover { background: var(--amber-light); text-decoration: none; }
+
+    /* ── HERO ── */
+    .hero {
+      background: linear-gradient(135deg, var(--navy-dark) 0%, var(--navy) 55%, #4f156a 100%);
+      padding: 60px 20px 56px;
+      text-align: center;
+      position: relative; overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 60% 40%, rgba(201,132,42,0.12) 0%, transparent 65%);
+      pointer-events: none;
+    }
+    .hero-inner { max-width: 780px; margin: 0 auto; position: relative; }
+    .hero-tag {
+      display: inline-block;
+      background: rgba(184,50,50,0.85); color: var(--white);
+      font-size: 0.78rem; font-weight: 700; letter-spacing: 0.08em;
+      padding: 5px 14px; border-radius: 20px; margin-bottom: 18px;
+      text-transform: uppercase;
+    }
+    .hero h1 { color: var(--white); margin-bottom: 16px; text-shadow: 0 2px 12px rgba(0,0,0,0.3); }
+    .hero-sub {
+      font-size: 1.1rem; color: rgba(255,255,255,0.78);
+      max-width: 600px; margin: 0 auto 28px;
+    }
+    .hero-btns {
+      display: flex; align-items: center; justify-content: center;
+      gap: 12px; flex-wrap: wrap; margin-bottom: 20px;
+    }
+    .hero-phone {
+      color: rgba(255,255,255,0.6); font-size: 0.88rem;
+      display: flex; align-items: center; justify-content: center; gap: 6px;
+      margin-bottom: 16px;
+    }
+    .hero-phone a { color: rgba(255,255,255,0.85); font-weight: 600; }
+    .hero-phone a:hover { color: var(--white); text-decoration: none; }
+
+    /* Rush reassurance */
+    .rush-note {
+      background: rgba(225,181,43,0.12); border: 1px solid rgba(225,181,43,0.4);
+      border-radius: 6px; padding: 10px 18px; margin: 0 auto 18px;
+      max-width: 560px; font-size: 0.88rem; color: rgba(255,255,255,0.82);
+    }
+    .rush-note strong { color: var(--amber); }
+
+    .hero-disclaimer {
+      background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 6px; padding: 10px 16px;
+      font-size: 0.8rem; color: rgba(255,255,255,0.55);
+      max-width: 600px; margin: 0 auto;
+    }
+
+    /* ── DEADLINE BANNER ── */
+    .deadline-banner {
+      background: var(--red-bg); border-bottom: 3px solid var(--red);
+      padding: 14px 20px; text-align: center;
+    }
+    .deadline-banner p { color: rgba(255,255,255,0.92); font-size: 0.92rem; font-weight: 600; margin: 0; }
+    .deadline-banner strong { color: #FF8A8A; }
+
+    /* ── SECTIONS ── */
+    .section { padding: 60px 20px; }
+    .section-inner { max-width: 900px; margin: 0 auto; }
+    .section-label {
+      display: inline-block; font-size: 0.72rem; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      color: var(--navy); margin-bottom: 8px;
+    }
+    .section-alt { background: var(--white); }
+
+    /* ── SITUATIONS GRID ── */
+    .situations-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 12px; margin-top: 24px;
+    }
+    .situation-card {
+      background: var(--white); border: 1px solid var(--border);
+      border-left: 4px solid var(--amber);
+      border-radius: 8px; padding: 14px 16px;
+      display: flex; align-items: flex-start; gap: 10px;
+      transition: box-shadow 0.18s, transform 0.15s;
+    }
+    .situation-card:hover { box-shadow: 0 4px 16px rgba(79,21,106,0.1); transform: translateY(-2px); }
+    .situation-card .sit-icon { font-size: 1.3rem; flex-shrink: 0; margin-top: 1px; }
+    .situation-card h3 { font-size: 0.9rem; color: var(--navy); margin-bottom: 3px; font-family: 'Nunito', sans-serif; font-weight: 700; }
+    .situation-card p { font-size: 0.8rem; color: var(--text-mid); margin: 0; }
+
+    /* ── HELP GRID ── */
+    .help-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 14px; margin-top: 28px;
+    }
+    .help-card {
+      background: var(--white); border: 1px solid var(--border);
+      border-left: 4px solid var(--amber);
+      border-radius: 8px; padding: 16px 18px;
+      transition: box-shadow 0.18s, transform 0.15s;
+    }
+    .help-card:hover { box-shadow: 0 6px 20px rgba(14,31,69,0.1); transform: translateY(-2px); }
+    .help-card .icon { font-size: 1.4rem; margin-bottom: 8px; }
+    .help-card h3 { font-size: 0.95rem; color: var(--navy); margin-bottom: 4px; }
+    .help-card p { font-size: 0.85rem; color: var(--text-mid); }
+
+    /* ── GATHER CHECKLIST ── */
+    .gather-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 10px; margin-top: 24px;
+    }
+    .gather-item {
+      display: flex; align-items: flex-start; gap: 10px;
+      background: var(--white); border: 1px solid var(--border);
+      border-radius: 8px; padding: 12px 14px;
+    }
+    .gather-item .check-box {
+      width: 20px; height: 20px; min-width: 20px;
+      border: 2px solid var(--amber); border-radius: 4px;
+      margin-top: 1px;
+    }
+    .gather-item h3 { font-size: 0.9rem; color: var(--text); margin-bottom: 2px; }
+    .gather-item p { font-size: 0.8rem; color: var(--text-light); }
+
+    /* ── CHECKLIST DOWNLOAD (secondary) ── */
+    .checklist-secondary {
+      background: linear-gradient(135deg, var(--navy) 0%, #4f156a 100%);
+      padding: 48px 20px;
+    }
+    .checklist-secondary-inner {
+      max-width: 680px; margin: 0 auto; text-align: center;
+    }
+    .checklist-secondary-inner h2 { color: var(--white); font-size: clamp(1.35rem, 3.5vw, 1.85rem); margin-bottom: 8px; }
+    .checklist-secondary-inner .sub { color: rgba(255,255,255,0.68); margin: 0 0 24px; font-size: 0.95rem; }
+    .checklist-preview {
+      background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.18);
+      border-radius: 8px; padding: 16px 20px;
+      text-align: left; margin-bottom: 24px;
+    }
+    .checklist-preview h3 {
+      color: rgba(255,255,255,0.5); font-size: 0.72rem;
+      font-family: 'Nunito', sans-serif; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 12px;
+    }
+    .preview-items { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 16px; }
+    .preview-item {
+      color: rgba(255,255,255,0.9); font-size: 1rem;
+      display: flex; align-items: center; gap: 8px; font-weight: 600;
+    }
+    .preview-item::before { content: '✓'; color: #7ed957; font-weight: 700; flex-shrink: 0; font-size: 1.05rem; }
+    @media (max-width: 480px) { .preview-items { grid-template-columns: 1fr; } }
+
+    .magnet-form {
+      background: var(--white); border-radius: 12px;
+      padding: 24px 24px 20px; text-align: left;
+    }
+    .magnet-form h3 {
+      color: var(--navy); font-size: 1rem; margin-bottom: 14px;
+      font-family: 'Nunito', sans-serif; font-weight: 700;
+    }
+    .form-row { display: flex; gap: 12px; flex-wrap: wrap; }
+    .form-group { flex: 1; min-width: 180px; margin-bottom: 12px; }
+    .form-group label {
+      display: block; font-size: 0.8rem; font-weight: 700;
+      color: var(--navy); margin-bottom: 5px; letter-spacing: 0.02em;
+    }
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      width: 100%; padding: 11px 13px;
+      border: 1.5px solid var(--border); border-radius: 6px;
+      font-family: 'Nunito', sans-serif; font-size: 0.9rem;
+      color: var(--text); background: var(--cream);
+      transition: border-color 0.15s;
+      appearance: none; -webkit-appearance: none;
+    }
+    .form-group textarea { resize: vertical; min-height: 80px; }
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus { outline: none; border-color: var(--amber); background: var(--white); }
+    .form-group .optional { color: var(--text-light); font-weight: 400; }
+    .form-submit {
+      width: 100%; margin-top: 6px; padding: 16px;
+      font-size: 1rem; min-height: 54px; border-radius: 6px;
+    }
+    .form-privacy {
+      text-align: center; margin-top: 10px;
+      font-size: 0.78rem; color: var(--text-light);
+    }
+
+    /* ── WHY THIS WORK MATTERS ── */
+    .why-section { background: var(--amber-pale); padding: 60px 20px; }
+    .why-inner { max-width: 760px; margin: 0 auto; }
+    .blockquote-card {
+      background: var(--white); border-left: 5px solid var(--amber);
+      border-radius: 8px; padding: 24px 28px;
+      box-shadow: 0 3px 16px rgba(14,31,69,0.07);
+    }
+    .blockquote-card p {
+      font-family: 'Playfair Display', serif; font-size: 1.2rem;
+      color: var(--navy); line-height: 1.7; font-weight: 500; font-style: italic;
+    }
+
+    /* ── HOW IT WORKS ── */
+    .steps { display: flex; gap: 0; flex-wrap: wrap; margin-top: 28px; }
+    .step {
+      flex: 1; min-width: 180px;
+      padding: 22px 18px; text-align: center;
+      border-right: 1px solid var(--border);
+    }
+    .step:last-child { border-right: none; }
+    .step-num {
+      width: 44px; height: 44px;
+      background: var(--amber); color: var(--navy-dark);
+      border-radius: 50%; display: flex; align-items: center; justify-content: center;
+      font-size: 1.1rem; font-weight: 700;
+      margin: 0 auto 12px;
+    }
+    .step h3 { font-size: 0.95rem; color: var(--navy); margin-bottom: 5px; }
+    .step p { font-size: 0.83rem; }
+    @media (max-width: 640px) {
+      .steps { flex-direction: column; }
+      .step { border-right: none; border-bottom: 1px solid var(--border); }
+      .step:last-child { border-bottom: none; }
+    }
+
+    /* ── CREDENTIALS ── */
+    .creds {
+      background: linear-gradient(135deg, #241a3c 0%, #4f156a 100%);
+      padding: 36px 20px; text-align: center;
+    }
+    .creds-inner { max-width: 800px; margin: 0 auto; }
+    .creds h3 {
+      color: rgba(255,255,255,0.5); font-size: 0.72rem;
+      font-family: 'Nunito', sans-serif; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 16px;
+    }
+    .creds-list { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+    .cred-badge {
+      background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 6px; padding: 8px 14px;
+      font-size: 0.78rem; color: rgba(255,255,255,0.75); font-weight: 500;
+    }
+    .cred-badge strong { color: var(--white); }
+
+    /* ── INQUIRY SECTION ── */
+    .inquiry-section {
+      background: linear-gradient(135deg, var(--navy-dark) 0%, var(--navy) 100%);
+      padding: 64px 20px;
+    }
+    .inquiry-inner { max-width: 680px; margin: 0 auto; }
+    .inquiry-inner .section-label { color: var(--amber); margin-bottom: 6px; }
+    .inquiry-inner h2 { color: var(--white); margin-bottom: 10px; }
+    .inquiry-inner .intro-text { color: rgba(255,255,255,0.72); margin-bottom: 20px; font-size: 0.97rem; }
+    .inquiry-reassurance {
+      background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 6px; padding: 12px 18px; margin-bottom: 24px;
+      font-size: 0.88rem; color: rgba(255,255,255,0.78); line-height: 1.5;
+    }
+    .inquiry-reassurance strong { color: var(--amber); }
+    .inquiry-form-card {
+      background: var(--white); border-radius: 12px;
+      padding: 32px 28px 28px;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.25);
+    }
+    .inquiry-form-card h3 {
+      font-family: 'Playfair Display', serif; font-weight: 700;
+      color: var(--navy); font-size: 1.25rem; margin-bottom: 6px;
+    }
+    .inquiry-form-card .form-tagline {
+      font-size: 0.85rem; color: var(--text-light); margin-bottom: 20px;
+    }
+    .form-submit-navy {
+      width: 100%; padding: 16px; margin-top: 6px;
+      background: var(--navy); color: var(--white);
+      font-family: 'Nunito', sans-serif; font-size: 1rem; font-weight: 700;
+      border: none; border-radius: 6px; cursor: pointer;
+      transition: background 0.18s; min-height: 54px;
+      letter-spacing: 0.02em; text-transform: uppercase;
+    }
+    .form-submit-navy:hover { background: var(--amber); color: var(--navy-dark); }
+    .form-note {
+      font-size: 0.77rem; color: var(--text-light);
+      margin-top: 12px; line-height: 1.5; text-align: center;
+    }
+
+    /* ── DISCLAIMER BOX ── */
+    .disclaimer-box {
+      background: var(--warm-gray); border: 1px solid var(--border);
+      border-radius: 8px; padding: 16px 20px;
+      font-size: 0.82rem; color: var(--text-mid);
+      max-width: 780px; margin: 20px auto 0;
+      line-height: 1.55;
+    }
+    .disclaimer-box strong { color: var(--text); }
+
+    /* ── FOOTER ── */
+    footer {
+      background: linear-gradient(135deg, #241a3c 0%, #4f156a 100%);
+      padding: 30px 20px; text-align: center;
+    }
+    footer .footer-brand {
+      color: var(--white); font-family: 'Playfair Display', serif;
+      font-size: 1.1rem; font-weight: 600; display: block; margin-bottom: 6px;
+    }
+    footer .footer-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; margin-bottom: 12px; }
+    footer .footer-links a { color: var(--amber); font-size: 0.85rem; }
+    footer .footer-links a:hover { color: var(--amber-light); text-decoration: none; }
+    footer .footer-copy { color: var(--amber); font-size: 0.75rem; opacity: 0.75; }
+
+    /* ── STICKY MOBILE CTA ── */
+    .sticky-cta {
+      position: fixed; bottom: 0; left: 0; right: 0;
+      background: linear-gradient(135deg, #241a3c 0%, #4f156a 100%);
+      border-top: 2px solid var(--amber);
+      padding: 12px 16px;
+      display: flex; align-items: center; justify-content: space-between; gap: 12px;
+      z-index: 999;
+    }
+    .sticky-cta .sticky-text { font-size: 0.82rem; color: rgba(255,255,255,0.7); line-height: 1.3; }
+    .sticky-cta .sticky-text strong { color: var(--white); font-size: 0.88rem; }
+    .sticky-cta a.btn-primary { padding: 11px 20px; font-size: 0.88rem; white-space: nowrap; min-height: 46px; }
+    @media (min-width: 768px) { .sticky-cta { display: none; } }
+
+    /* ── UTILS ── */
+    .text-center { text-align: center; }
+    .mt-2 { margin-top: 8px; }
+    .mt-4 { margin-top: 16px; }
+    .mt-6 { margin-top: 24px; }
+    .notice-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: var(--green); color: white;
+      font-size: 0.78rem; font-weight: 700;
+      padding: 5px 12px; border-radius: 20px; margin-bottom: 12px;
+    }
+
+    @media (max-width: 600px) {
+      .section { padding: 44px 16px; }
+      .checklist-secondary { padding: 40px 16px; }
+      .inquiry-section { padding: 48px 16px; }
+      .magnet-form, .inquiry-form-card { padding: 22px 18px; }
+      .hero { padding: 46px 16px 44px; }
+      .top-bar .cta-small { display: none; }
+      h2 { font-size: 1.6rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── TOP BAR ── -->
+<div class="top-bar">
+  <a href="/" class="brand">
+    <img src="/logo.png" alt="Pro Per Paperwork Pros logo" style="height:32px;width:32px;border-radius:50%;object-fit:cover;">
+    Pro Per Paperwork Pros&#8482;
+  </a>
+  <div class="contact-strip">
+    <a href="tel:5104736373" class="phone">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 10a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 0h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.1a16 16 0 0 0 6 6l1.27-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 15.4v1.52z"/></svg>
+      (510) 473-6373
+    </a>
+    <a href="#inquiry-form" class="cta-small">Start Free Case Inquiry</a>
+  </div>
+</div>
+
+<!-- ── DEADLINE BANNER ── -->
+<div class="deadline-banner">
+  <p>⏰ &nbsp;<strong>10-day deadline to respond</strong> to a California Unlawful Detainer complaint (AB 2347). Don't let the clock run out.</p>
+</div>
+
+<!-- ── HERO ── -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-tag">⚠ Eviction Response Assistance · Alameda County</div>
+    <h1>Served With Eviction Papers<br>in Alameda County?</h1>
+    <p class="hero-sub">Eviction court deadlines move quickly. If you received a summons, complaint, 3-Day Notice, or unlawful detainer paperwork — do not ignore it. We help you prepare the right paperwork before your deadline.</p>
+    <div class="hero-btns">
+      <a href="#inquiry-form" class="btn-primary">Start Free Case Inquiry</a>
+      <a href="tel:5104736373" class="btn-outline">Call (510) 473-6373</a>
+    </div>
+    <p class="hero-phone">Monday–Friday, 9 AM–6 PM · <a href="mailto:help@properpaperworkpros.com">help@properpaperworkpros.com</a></p>
+    <div class="rush-note">
+      <strong>Deadline close?</strong> Let us know in your inquiry. Rush turnaround may be available.
+    </div>
+    <div class="hero-disclaimer">
+      <strong>Not a law firm.</strong> Pro Per Paperwork Pros&#8482; provides legal document preparation and procedural support for self-represented individuals. We do not provide legal advice or court representation.
+    </div>
+  </div>
+</section>
+
+<!-- ── COMMON SITUATIONS ── -->
+<section class="section">
+  <div class="section-inner">
+    <span class="section-label">Common Situations We Help With</span>
+    <h2>Do any of these sound familiar?</h2>
+    <p>If you're dealing with any of the situations below, you're in the right place. We help self-represented tenants prepare the paperwork they need — no matter how complicated it feels right now.</p>
+
+    <div class="situations-grid">
+      <div class="situation-card">
+        <div class="sit-icon">💰</div>
+        <div>
+          <h3>Nonpayment Allegations</h3>
+          <p>Landlord says you owe rent — but you paid, the amount is wrong, or rent was never properly accepted.</p>
+        </div>
+      </div>
+      <div class="situation-card">
+        <div class="sit-icon">🧾</div>
+        <div>
+          <h3>Rent Disputes</h3>
+          <p>Disagreements about how much is owed, what was applied, or how payments were handled.</p>
+        </div>
+      </div>
+      <div class="situation-card">
+        <div class="sit-icon">🏚️</div>
+        <div>
+          <h3>Habitability Concerns</h3>
+          <p>You've reported repairs that were ignored. Poor conditions at the unit may be relevant to your case.</p>
+        </div>
+      </div>
+      <div class="situation-card">
+        <div class="sit-icon">♿</div>
+        <div>
+          <h3>Disability Accommodations</h3>
+          <p>You have a disability-related housing need that the landlord has denied, ignored, or delayed.</p>
+        </div>
+      </div>
+      <div class="situation-card">
+        <div class="sit-icon">📬</div>
+        <div>
+          <h3>Improper Service</h3>
+          <p>The eviction papers weren't delivered correctly — wrong person, wrong address, or wrong method.</p>
+        </div>
+      </div>
+      <div class="situation-card">
+        <div class="sit-icon">🔁</div>
+        <div>
+          <h3>Retaliation Concerns</h3>
+          <p>The eviction followed a complaint you made about conditions, or a request you submitted to the landlord.</p>
+        </div>
+      </div>
+      <div class="situation-card">
+        <div class="sit-icon">📵</div>
+        <div>
+          <h3>Communication Breakdowns</h3>
+          <p>Your landlord stopped responding, changed their story, or refused to put things in writing.</p>
+        </div>
+      </div>
+      <div class="situation-card">
+        <div class="sit-icon">📄</div>
+        <div>
+          <h3>Confusing or Incomplete Paperwork</h3>
+          <p>You received something in the mail and you're not sure what it means or what you're supposed to do next.</p>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align:center; margin-top:32px;">
+      <a href="#inquiry-form" class="btn-primary">Start Free Case Inquiry</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── WHAT WE HELP PREPARE ── -->
+<section class="section section-alt">
+  <div class="section-inner">
+    <span class="section-label">What We Help Prepare</span>
+    <h2>Paperwork support when you need it most</h2>
+    <p>We prepare, organize, and format court documents for tenants who are representing themselves. Every service below is available to Alameda County residents.</p>
+
+    <div class="help-grid">
+      <div class="help-card">
+        <div class="icon">📄</div>
+        <h3>Answer Packet</h3>
+        <p>Formal written response to the UD complaint filed with the court before your deadline.</p>
+      </div>
+      <div class="help-card">
+        <div class="icon">💸</div>
+        <h3>Fee Waiver Forms</h3>
+        <p>Help preparing the FW-001 fee waiver if you cannot afford court filing fees.</p>
+      </div>
+      <div class="help-card">
+        <div class="icon">🗂</div>
+        <h3>Filing Preparation</h3>
+        <p>We organize and format your documents so they're ready to file with the court clerk.</p>
+      </div>
+      <div class="help-card">
+        <div class="icon">📬</div>
+        <h3>Proof of Service Instructions</h3>
+        <p>Guidance on properly serving the other party and completing the proof of service form.</p>
+      </div>
+      <div class="help-card">
+        <div class="icon">📁</div>
+        <h3>Document Organization</h3>
+        <p>Sort and organize your evidence — notices, texts, payment records — before your hearing.</p>
+      </div>
+      <div class="help-card">
+        <div class="icon">✍️</div>
+        <h3>Declaration Formatting</h3>
+        <p>We format your sworn statement so it meets court requirements and clearly presents your facts.</p>
+      </div>
+      <div class="help-card">
+        <div class="icon">♿</div>
+        <h3>Help When a Landlord Ignores an Accommodation Request</h3>
+        <p>Reasonable accommodation paperwork under the Fair Housing Act and ADA for tenants with disabilities.</p>
+      </div>
+      <div class="help-card">
+        <div class="icon">🔔</div>
+        <h3>Help When You Were Improperly Served</h3>
+        <p>If the eviction papers were not served correctly, specific paperwork may be available to address that.</p>
+      </div>
+      <div class="help-card">
+        <div class="icon">⚖️</div>
+        <h3>Help After a Default Is Entered</h3>
+        <p>Document support if a default has already been entered in your case.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── WHAT TO GATHER ── -->
+<section class="section">
+  <div class="section-inner">
+    <span class="section-label">Before You Contact Us</span>
+    <h2>Gather these documents first — if you have them</h2>
+    <p>Try to locate as many of these as possible before your intake. But don't wait until everything is perfect — reach out now and we'll work with what you have.</p>
+
+    <div class="gather-grid">
+      <div class="gather-item">
+        <div class="check-box"></div>
+        <div><h3>Notice to Quit or Pay Rent</h3><p>3-Day, 30-Day, 60-Day, or any notice you received before the lawsuit</p></div>
+      </div>
+      <div class="gather-item">
+        <div class="check-box"></div>
+        <div><h3>Summons &amp; Complaint</h3><p>The court papers you were served — includes the case number</p></div>
+      </div>
+      <div class="gather-item">
+        <div class="check-box"></div>
+        <div><h3>Your Lease or Rental Agreement</h3><p>All pages, including any addendums or riders</p></div>
+      </div>
+      <div class="gather-item">
+        <div class="check-box"></div>
+        <div><h3>Rent Ledger / Payment History</h3><p>Bank statements, receipts, Venmo/Zelle records, money orders</p></div>
+      </div>
+      <div class="gather-item">
+        <div class="check-box"></div>
+        <div><h3>Texts &amp; Emails with Landlord</h3><p>Any written communication about rent, repairs, or the notice</p></div>
+      </div>
+      <div class="gather-item">
+        <div class="check-box"></div>
+        <div><h3>Inspection Notices</h3><p>Any notice to enter or records of unit inspections</p></div>
+      </div>
+      <div class="gather-item">
+        <div class="check-box"></div>
+        <div><h3>Accommodation Requests</h3><p>If you submitted any written requests related to disability or housing needs</p></div>
+      </div>
+      <div class="gather-item">
+        <div class="check-box"></div>
+        <div><h3>Photos &amp; Videos</h3><p>Of unit conditions, habitability issues, or relevant property conditions</p></div>
+      </div>
+    </div>
+
+    <div class="disclaimer-box mt-6">
+      <strong>Don't have everything?</strong> That's okay — reach out now and we'll work with what you have. Some documents can be obtained later or aren't required for every situation.
+    </div>
+  </div>
+</section>
+
+<!-- ── WHY THIS WORK MATTERS ── -->
+<section class="why-section section">
+  <div class="why-inner">
+    <span class="section-label">Why This Work Matters</span>
+    <h2>You deserve help navigating the paperwork</h2>
+    <div class="blockquote-card mt-4">
+      <p>"Pro Per Paperwork Pros&#8482; was created to help self-represented people navigate intimidating paperwork with clarity, dignity, and organization. Many people cannot afford full legal representation but still need help understanding what documents are required, how forms are prepared, and how to stay organized before deadlines expire."</p>
+    </div>
+    <p class="mt-4">We are not attorneys. We do not represent you in court. What we do is prepare accurate, organized, court-ready documents so that when you walk in that door, you are as prepared as possible.</p>
+  </div>
+</section>
+
+<!-- ── HOW IT WORKS ── -->
+<section class="section section-alt">
+  <div class="section-inner">
+    <span class="section-label">The Process</span>
+    <h2>How we work together</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <h3>Submit Free Inquiry</h3>
+        <p>Tell us what papers you received and when. No charge to inquire.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <h3>Paid Consultation</h3>
+        <p>We review your situation by Zoom or phone and confirm what documents we can prepare. $150 — applies toward your package.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <h3>Document Preparation</h3>
+        <p>We prepare your court documents. Standard turnaround 2–5 days. Rush 24-hour available.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <h3>Review &amp; File</h3>
+        <p>You receive your documents, sign, and file before your deadline — or add e-filing and we'll handle it.</p>
+      </div>
+    </div>
+    <div class="disclaimer-box mt-6">
+      <strong>Important:</strong> Pro Per Paperwork Pros&#8482;, LLC is a registered Legal Document Assistant (LDA) and Unlawful Detainer Assistant (UDA) under California Business &amp; Professions Code §6400. We are <strong>not attorneys</strong>, do not practice law, and do not provide legal advice or representation. Our services are limited to preparing legal documents at your specific direction.
+    </div>
+  </div>
+</section>
+
+<!-- ── CREDENTIALS ── -->
+<div class="creds">
+  <div class="creds-inner">
+    <h3>Licensed &amp; Bonded in Alameda County</h3>
+    <div class="creds-list">
+      <div class="cred-badge"><strong>LDA</strong> Reg. #209</div>
+      <div class="cred-badge"><strong>UDA</strong> Reg. #19</div>
+      <div class="cred-badge"><strong>Process Server</strong> Alameda Co. Reg. #1715</div>
+    </div>
+  </div>
+</div>
+
+<!-- ── FREE CHECKLIST (secondary) ── -->
+<section class="checklist-secondary" id="checklist-form">
+  <div class="checklist-secondary-inner">
+    <span class="notice-badge">Free Download</span>
+    <h2>Free California Eviction Response Checklist</h2>
+    <p class="sub">A plain-language checklist covering what to gather, what to prepare, and what to watch out for — built for self-represented tenants in Alameda County.</p>
+
+    <div class="checklist-preview">
+      <h3>Inside the Checklist</h3>
+      <div class="preview-items">
+        <div class="preview-item">Documents to gather</div>
+        <div class="preview-item">Immediate action steps</div>
+        <div class="preview-item">What we help prepare</div>
+        <div class="preview-item">Possible defenses to note</div>
+        <div class="preview-item">Deadline reminders</div>
+        <div class="preview-item">Court contact info</div>
+      </div>
+    </div>
+
+    <div class="magnet-form">
+      <h3>Send me the free checklist</h3>
+      <form name="checklist-download" method="POST" data-netlify="true" action="/thank-you">
+        <input type="hidden" name="form-name" value="checklist-download">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="cl-name">Full Name *</label>
+            <input type="text" id="cl-name" name="name" required placeholder="Your name">
+          </div>
+          <div class="form-group">
+            <label for="cl-email">Email Address *</label>
+            <input type="email" id="cl-email" name="email" required placeholder="your@email.com">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="cl-phone">Phone <span class="optional">(optional)</span></label>
+            <input type="tel" id="cl-phone" name="phone" placeholder="(510) 000-0000">
+          </div>
+          <div class="form-group">
+            <label for="cl-county">County *</label>
+            <select id="cl-county" name="county" required>
+              <option value="" disabled selected>Select county</option>
+              <option>Alameda County</option>
+              <option>Contra Costa County</option>
+              <option>Other California county</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="cl-served">Have court papers already been served on you? *</label>
+          <select id="cl-served" name="papers_served" required>
+            <option value="" disabled selected>Select one</option>
+            <option>Yes — I have the summons and complaint</option>
+            <option>Yes — I received a notice but not court papers yet</option>
+            <option>No — I want to prepare in advance</option>
+            <option>I'm not sure what I received</option>
+          </select>
+        </div>
+        <button type="submit" class="btn-primary form-submit">Download the Free Checklist</button>
+        <p class="form-privacy">🔒 Your information stays confidential. We do not sell or share your data.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ── INQUIRY FORM ── -->
+<section class="inquiry-section" id="inquiry-form">
+  <div class="inquiry-inner">
+    <span class="section-label">Get Started</span>
+    <h2>Start Your Free Case Inquiry</h2>
+    <p class="intro-text">No charge to reach out. We'll review what you've shared and follow up within one business day. If your deadline is close, call us directly at <a href="tel:5104736373" style="color:var(--amber); font-weight:700;">(510) 473-6373</a>.</p>
+
+    <div class="inquiry-reassurance">
+      <strong>You do not need to have everything perfectly organized before reaching out.</strong> Send us what you have. We'll help you figure out the rest.
+      <br><br>
+      <strong>Deadline close?</strong> Let us know in your message. Rush turnaround may be available.
+    </div>
+
+    <div class="inquiry-form-card">
+      <h3>Free Case Inquiry</h3>
+      <p class="form-tagline">No charge · We respond within one business day</p>
+      <form name="inquiry" method="POST" data-netlify="true" action="/thank-you">
+        <input type="hidden" name="form-name" value="inquiry">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Full Name *</label>
+            <input type="text" name="name" required placeholder="Your name">
+          </div>
+          <div class="form-group">
+            <label>Email *</label>
+            <input type="email" name="email" required placeholder="your@email.com">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Phone *</label>
+            <input type="tel" name="phone" required placeholder="(510) 000-0000">
+          </div>
+          <div class="form-group">
+            <label>County *</label>
+            <select name="county" required>
+              <option value="" disabled selected>Select county</option>
+              <option>Alameda County</option>
+              <option>Contra Costa County</option>
+              <option>Other California county</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Have court papers already been served on you? *</label>
+          <select name="papers_served" required>
+            <option value="" disabled selected>Select one</option>
+            <option>Yes — I have the summons and complaint</option>
+            <option>Yes — I received a notice but not court papers yet</option>
+            <option>No — I want to prepare in advance</option>
+            <option>I'm not sure what I received</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Tell us briefly what papers you received or what happened *</label>
+          <textarea name="message" required placeholder="Example: I received a 3-day notice last week. My landlord says I owe rent but I have receipts. I'm not sure what to do next."></textarea>
+        </div>
+        <button type="submit" class="form-submit-navy">Send Free Inquiry</button>
+        <p class="form-note">By submitting, you acknowledge that Pro Per Paperwork Pros&#8482; is not a law firm, does not provide legal advice, and that this submission does not create an attorney-client relationship.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <a href="/" class="footer-brand">Pro Per Paperwork Pros&#8482;</a>
+  <div class="footer-links">
+    <a href="/">Home</a>
+    <a href="/eviction-response-help">Eviction Help</a>
+    <a href="tel:5104736373">(510) 473-6373</a>
+    <a href="mailto:help@properpaperworkpros.com">help@properpaperworkpros.com</a>
+  </div>
+  <p class="footer-copy">
+    © 2026 Pro Per Paperwork Pros, LLC · LDA Reg. #209 · UDA Reg. #19 · Process Server Reg. #1715 · Not a law firm.
+  </p>
+</footer>
+
+<!-- ── STICKY MOBILE CTA ── -->
+<div class="sticky-cta">
+  <div class="sticky-text">
+    <strong>10-day response deadline.</strong><br>
+    Act before it expires.
+  </div>
+  <a href="#inquiry-form" class="btn-primary">Start Free Inquiry</a>
+</div>
+
+</body>
+</html>
